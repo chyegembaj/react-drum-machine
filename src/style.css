@@ -1,0 +1,28 @@
+h1,
+p {
+  font-family: Lato;
+}
+.drum-container {
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.drum-display {
+  display: inline-grid;
+  grid-gap: 12px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.drum-pad {
+  background-color: rgba(255, 255, 255, 0.8);
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: 5px solid #ff670e;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
