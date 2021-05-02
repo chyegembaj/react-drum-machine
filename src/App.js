@@ -86,6 +86,7 @@ export default function App() {
 
   return (
     <div className="drum-container" id="drum-machine">
+      <h1>Drum Machine</h1>
       <div id="display" />
       <div className="drum-display">
         {keys.map(({ id, keyTrigger, url }) => {
